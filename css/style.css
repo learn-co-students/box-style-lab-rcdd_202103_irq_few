@@ -26,17 +26,37 @@ h4 {
   border: 1px solid #22aa44;
   box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
   background-color: #44cc66;
-
 }
 
+
+h4.amiable{
+  box-shadow:  -1px 1px #44cc66, -2px 2px #44cc66, -3px 3px #44cc66, -4px 4px #44cc66, -5px 5px #44cc66;
+  background-color: #22aa44;
+  background: linear-gradient(to right, #22aa44, #44cc66)
+}
+
+
 .indifferent {
-  background-color: #dddd22;
+   border: 1px solid #ffff44;
+  background-color: #ffff44;
+   box-shadow:  -1px 1px #dddd44, -2px 2px #dddd44, -3px 3px #dddd44, -4px 4px #dddd44, -5px 5px #dddd44;
+}
+
+h4.indifferent{
+  box-shadow:  -1px 1px #ffff44, -2px 2px #ffff44, -3px 3px #ffff44, -4px 4px #ffff44, -5px 5px #ffff44;
+  background-color: #dddd44;
+  background: linear-gradient(to right, #dddd44, #ffff44)
 }
 
 .dubious {
-  background-color: #dd4444;
+  background-color: #ff6666;
+   border: 1px solid #ff6666;
+   box-shadow:  -1px 1px #dd4444, -2px 2px #dd4444, -3px 3px #dd4444, -4px 4px #dd4444, -5px 5px #dd4444;
 }
-
+h4.dubious{
+  box-shadow:  -1px 1px #ff6666, -2px 2px #ff6666, -3px 3px #ff6666, -4px 4px #ff6666, -5px 5px #ff6666;
+  background: linear-gradient(to right, #dd4444, #ff6666)
+}
 .column {
   width: 30%;
   display: inline-block;
